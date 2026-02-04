@@ -1,0 +1,77 @@
+/* RESET BASIQUE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER PRINCIPAL */
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* BARRE DE RECHERCHE */
+.search {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.search i {
+  margin-right: 10px;
+  color: #777;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* ICÔNES À DROITE */
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+/* CHAQUE BOUTON (panier, plus, notification, connecter) */
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* ICÔNES */
+.icons i {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+/* TEXTE SOUS ICÔNES */
+.icons span {
+  text-transform: capitalize;
+}
+
+/* EFFET AU SURVOL */
+.icons > div:hover {
+  color: #e60023;
+}
